@@ -1,7 +1,8 @@
-let score = "33abc"
-let num = null
-let age = undefined
-let adult = true
+// let score = "33abc"
+// let num = null
+// let age = undefined
+// let adult = true
+
 
 // console.log(typeof score);
 // console.log(typeof(score));
@@ -25,10 +26,20 @@ let adult = true
 // console.log(valueInNumber3);
 
 
-let valueInNumber4 = Number(adult)
-console.log(typeof adult);
-console.log(adult);
-console.log(typeof valueInNumber4);
-console.log(valueInNumber4);
+// let valueInNumber4 = Number(adult)
+// console.log(typeof adult);
+// console.log(adult);
+// console.log(typeof valueInNumber4);
+// console.log(valueInNumber4);
+
+let loggedIn = 1
+let booleanIsLoggedIn = Boolean(loggedIn)
+console.log(booleanIsLoggedIn);
 
 
+
+/*
+"33" => 33
+"33abc" => NaN
+true => 1 , false => 0
+*/
