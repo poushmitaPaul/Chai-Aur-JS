@@ -60,3 +60,48 @@ const users = [
 
 // console.log(tinderUser.hasOwnProperty('isLogged'));
 
+
+
+
+
+
+
+//  DESTRUCTING OF OBJECTS  //
+
+const course = {
+    courseNAme: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// React
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "hitesh")
+
+
+//  JSON
+
+// {
+//     "name": "hitesh",
+//     "courseName": "js in hindi",
+//     "price": "free"
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
+// randomuser me API  --> famous API to use
+// JSON formatter  --> to study API data
